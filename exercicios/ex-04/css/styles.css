@@ -19,7 +19,7 @@ header{
 
 }
 .foto{
-    widht: 50%;
+    widht: 50%; /* ta escrito errado, por isso não está funcionando é width*/
 display: inline-block;
 }
 .topo{

@@ -16,6 +16,11 @@
     margin-left: 140px;
 }
 
+/*
+aqui a mesma coisa de usar uma classe só. Se todas tem o mesmo estilo, poderia ser uma
+classe só, certo? que poderia se chamar caixa, por exemplo
+
+*/
 .caixa-1, .caixa-2, .caixa-3, .caixa-4, .caixa-5, .caixa-6, .caixa-7, .caixa-8 {
     background-color: grey;
     margin-right: 20px;

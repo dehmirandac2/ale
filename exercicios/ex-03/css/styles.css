@@ -4,6 +4,10 @@
     list-style: none;
     border: 0
 }
+/*
+    colocou até outros estilos, que não eram pedidos no exercício!
+    show de bola, Ale! \o/
+*/
 hr{
     color: grey;
     background-color: grey;
@@ -18,6 +22,32 @@ body{
 h1 {
     margin-bottom: 30px;
 }
+
+/*
+    Como comentei no exercício de currículo, você pode reaproveitar o estilo.
+    Como as 5 classes abaixo são iguais (tem o mesmo estilo), que tal usar uma classe só pra todas
+    elas. Do jeito que você fez, funciona também. Mas quero que você saiba que é possível
+    fazer de outra maneira, para que depois decida a melhor opção.
+
+    No css ficaria assim:
+
+    .sabores {
+        padding-bottom: 30px;
+    }
+
+    no html ficaria assim: 
+
+    <div class="sabores sabor-1">
+      <h3>Portuguesa com Catupiry</h3>
+      <p>Presunto, ovo, ervilha, cebola, catupiry e azeitona preta</p>
+    </div>
+    <div class="sabores sabor-2">
+      <h3>Pepperoni</h3>
+      <p>Pepperoni e cebola</p>
+    </div>
+
+    Percebe como podemos adicionar duas classes no mesmo elemento css?
+*/
 .sabor-1, .sabor-2, .sabor-3, .sabor-4, .sabor-5 {
     padding-bottom: 30px;
 }

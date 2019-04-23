@@ -3,7 +3,15 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale='1.0'" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- detalhe bobo, mas ficou faltando mudar o título do arquivo -->
     <title></title>
+
+    <!-- Se você abrir seu HTML em outro navegador, como o Firefox ou Internet Explorer,
+      vai ver que os caracteres especiais (que estão lá no fim do arquivo)
+      vão ser printados de uma forma estranha. Você precisa adicionar uma meta tag aqui,
+      que vai definir os caracteres do arquivos. Ficaria algo assim:
+      <meta charset="utf-8"/>
+    -->
   </head>
   <body>
     <h1>h1</h1>
@@ -26,6 +34,17 @@
       <li>item não ordenado 4</li>
       <li>item não ordenado 5</li>
     </ol>
+    <!--
+            Se você clicar no link abaixo, o link vai
+            abrir na mesma aba. Ou seja, o usuário vai sair da nossa página e vai pra uma outra página.
+            Queremos que o link abra numa aba nova no navegador.
+            Devemos usar o atributo target da tag a.
+            Ficaria algo assim:
+            <a href="https://www.globo.com/" target="_blank">
+              Link para o Globo.com
+            </a>
+            Faça o teste pra ver se vai dar certo! =)
+          -->
     <a href="https://www.globo.com/">Link para o Globo.com </a>
     <p>Caracteres especiais</p>
     <p>ç â à á ã ê é è í ì î ô</p>
